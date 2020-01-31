@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Preview should render correctly 1`] = `
+<div
+  className="preview-canvas-wrapper"
+>
+  <canvas
+    className="preview-canvas"
+    onClick={[Function]}
+  />
+  <div
+    className="fps-change-wrapper"
+  >
+    <p
+      className="text-success fps-value"
+    >
+      7 FPS
+    </p>
+    <input
+      className="fps-range"
+      defaultValue={7}
+      id="customRange1"
+      max="24"
+      min="1"
+      onChange={[Function]}
+      type="range"
+    />
+  </div>
+</div>
+`;

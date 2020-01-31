@@ -1,0 +1,69 @@
+.frame{
+  width: 100px;
+  height: 100px;
+}
+.frame-number{
+  position: absolute;
+  padding: 0px;
+  height: 25px;
+  width: 25px;
+  opacity: 1;
+}
+.frame-number:hover{
+  cursor: auto;
+  background-color: #444;
+}
+.frame-image{
+  padding: 5px;
+}
+.frame-image_{
+  height: 100%;
+  width: 100%;
+  image-rendering: pixelated;
+}
+.add-frame{
+  width: 100px;
+}
+.frames-wrapper{
+  height: 70vh;
+  width: 130px;
+  overflow: auto;
+}
+.frames-wrapper::-webkit-scrollbar {
+  width: 10px;
+}
+.frames-wrapper::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+  border-radius: 5px;
+}
+.frames-wrapper::-webkit-scrollbar-thumb {
+  background: #00bc8c; 
+  border-radius: 5px;
+}
+.frames-wrapper::-webkit-scrollbar-thumb:hover {
+  background: #018866; 
+}
+.frame-image-copy{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  border-radius: 0;
+  border-top-left-radius: 0.25rem;
+  border-right: none;
+  border-bottom: none;
+  height: 25px;
+  width: 25px;
+  padding: 0;
+}
+.frame-image-delete{
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-radius: 0;
+  border-bottom-left-radius: 0.25rem;
+  border-right: none;
+  border-top: none;
+  height: 25px;
+  width: 25px;
+  padding: 0;
+}

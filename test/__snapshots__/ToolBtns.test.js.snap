@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ToolBtns should render correctly 1`] = `
+Array [
+  <button
+    className="btn btn-secondary tool"
+    data-placement="right"
+    data-toggle="tooltip"
+    key="pencil"
+    onClick={[Function]}
+    title="pencil"
+    type="button"
+  >
+    <i
+      aria-hidden="true"
+      className="fa fa-pencil-alt"
+    />
+  </button>,
+  <button
+    className="btn btn-secondary tool"
+    data-placement="right"
+    data-toggle="tooltip"
+    key="color-picker"
+    onClick={[Function]}
+    title="color-picker"
+    type="button"
+  >
+    <i
+      aria-hidden="true"
+      className="fa fa-eye-dropper"
+    />
+  </button>,
+  <button
+    className="btn btn-secondary tool"
+    data-placement="right"
+    data-toggle="tooltip"
+    key="bucket"
+    onClick={[Function]}
+    title="bucket"
+    type="button"
+  >
+    <i
+      aria-hidden="true"
+      className="fa fa-fill-drip"
+    />
+  </button>,
+  <button
+    className="btn btn-secondary tool"
+    data-placement="right"
+    data-toggle="tooltip"
+    key="eraser"
+    onClick={[Function]}
+    title="eraser"
+    type="button"
+  >
+    <i
+      aria-hidden="true"
+      className="fa fa-eraser"
+    />
+  </button>,
+  <button
+    className="btn btn-secondary tool"
+    data-placement="right"
+    data-toggle="tooltip"
+    key="stroke"
+    onClick={[Function]}
+    title="stroke"
+    type="button"
+  >
+    <i
+      aria-hidden="true"
+      className="fa fa-pencil-ruler"
+    />
+  </button>,
+]
+`;

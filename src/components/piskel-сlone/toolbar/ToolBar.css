@@ -1,0 +1,29 @@
+.tool{
+  font-size: 2rem;
+}
+.color-input-wrapper{
+  cursor: unset;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.color-input{
+  margin: 0 3%;
+  border: none;
+}
+.color-input[type="color"] {
+	-webkit-appearance: none;
+	border-radius: 5px;
+	width: 32px;
+	height: 32px;
+}
+.color-input[type="color"]::-webkit-color-swatch-wrapper {
+	padding: 0;
+}
+.color-input[type="color"]::-webkit-color-swatch {
+	border: none;
+}
+.switch-colors{
+  cursor: pointer;
+  height: 100%;
+}

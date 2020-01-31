@@ -1,0 +1,32 @@
+.keyboard-shortcuts{
+  position: fixed;
+  left: 5%;
+  bottom: 5%;
+}
+.keyboard-shortcuts .btn {
+  font-size: 2rem;
+}
+.keyboard-shortcuts-modal{
+  background-color: #222;
+  margin-top: 17vh;
+  margin-left: 20vw;
+  height: 66vh;
+  width: 60vw;
+  padding: 2% 5%;
+}
+.ReactModal__Content{
+  border-radius: 20px;
+  outline: none;
+}
+.ReactModal__Overlay{
+  z-index: 3;
+  top: 50%;
+  left: 50%;
+}
+.keyboard-shortcuts-tagline{
+  display: flex;
+  justify-content: space-between;
+}
+.keyboard-shortcuts-modal-close{
+  height: 35px;
+}

@@ -1,0 +1,17 @@
+.landing-author-info{
+  margin-top: 5%;
+}
+.landing-author-info_fl{
+  display: flex;
+  justify-content: space-between;
+}
+.landing-author-info_fl_text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.landing-author-info_photo{
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+}
