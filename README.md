@@ -14,6 +14,7 @@ This project was made during studying at The Rolling Scopes School (RS2019Q3).
 - Set FPS of animation;
 - Change the width of the pencil, eraser and stroke tools.
 
+## Development:
 - `npm i` to install dependencies;
 - `npm start` to run dev-server (http://localhost:3000/);
 
